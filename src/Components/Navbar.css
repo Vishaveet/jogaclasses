@@ -1,51 +1,55 @@
-/* Navbar.css */
+#logo {
+  border-radius: 50%;
+}
 .navbar {
-    transition: background-color 0.3s ease;
-    background-color: transparent; /* Default background */
-    position: fixed; /* Ensure navbar stays fixed at the top */
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    padding: 15px 0; /* Add padding for better spacing */
-  }
-  
-  .scrolled {
-    background-color: #FFFFFF; /* Change to your desired background color */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add box-shadow for a lifted effect */
-  }
-  
-  .container-fluid {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .navbar-brand {
-    margin-right: 15px; /* Optional: Adjust margin for the navbar brand */
-  }
-  
-  .navbar-nav {
-    display: flex;
-    align-items: center; /* Center items vertically */
-  }
-  
-  .navbar-nav .nav-item {
-    margin-right: 10px; /* Adjust as needed for spacing between items */
-  }
-  
-  .navbar-nav .nav-link {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-  }
-  
-  .navbar-nav .nav-link:hover {
-    text-decoration: underline;
-  }
-  .tc-white{
-    color: white !important;
-  }
-  .tc-black{
-    color: black !important;
-  }
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  padding: 15px 0;
+}
+.scrolled {
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-brand {
+  margin-right: 15px;
+}
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2888, 88, 88, 0.7%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.collapse.navbar-collapse {
+  flex-grow: 0;
+}
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+.navbar-nav .nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+.tc-white {
+  color: white !important;
+}
+.tc-black {
+  color: black !important;
+}
