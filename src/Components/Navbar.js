@@ -93,7 +93,7 @@ function Navbar() {
     <nav className={scrollNav ? 'navbar scrolled navbar-expand-lg' : 'navbar navbar-expand-lg'}>
       <div className="container-fluid">
         <a className="navbar-brand" href="#">
-          <img id='logo' src="img/pic.jpeg" alt="logo" width="50" height="50" />
+          <img id='logo' style={{height:"50px" , width:"50px", borderRadius:"50%"}} src="img/pic.jpeg" alt="logo" width="50" height="50" />
         </a>
         <a className={scrollNav ? 'navbar-brand tc-black' : 'navbar-brand tc-white'} href="#">Shree Hariom Ymmoga</a>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
