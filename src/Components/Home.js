@@ -53,6 +53,24 @@ function Home() {
         <span className="visually-hidden">Next</span>
       </button>
     </div>
+    <div className="section">
+      <h1>Classes and Indicators</h1>
+      <div className="conatiner">
+      <div className="box">
+        <img src="img/yoga-2176668_1920.jpg" alt="img"/>
+        <h3>Indicator</h3>
+      </div>
+      <div className="box">
+        <img src="img/woman-5380651_1920.jpg" alt="img" height="50" width="50px"/>
+        <h3>Online Classes</h3>
+      </div>
+      <div className="box">
+        <img src="img/yoga-4300033_1920.jpg" alt="img" height="50" width="50px"/>
+        <h3>Event</h3>
+      </div>
+
+      </div>
+    </div>
     </>
   );
 }
